@@ -14,7 +14,7 @@ import nltk
 
 def get_argparser():
     """Build the argument parser for main."""
-    parser = argparse.ArgumentParser(description='memmwsd')
+    parser = argparse.ArgumentParser(description='one_sentence_per_line')
     parser.add_argument('--infn', type=str, required=True)
     parser.add_argument('--outfn', type=str, required=True)
     parser.add_argument('--tokenize',dest='tokenize',action='store_true')
